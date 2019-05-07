@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+<!--
+  * emailTemplateData.xml
+  *
+  * Copyright (c) 2003-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="es_ES">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>Identificador ORCID</subject>
+		<body>Estimado/a {$authorName},
+
+Se le ha añadido como coautor/a del artículo "{$articleTitle}" para {$journalName}. 
+
+Para confirmar su autoría, añada su identificador ORCID a este envío mediante el enlace proporcionado a continuación.
+
+{$authorOrcidUrl}
+
+Si tiene cualquier pregunta no dude en contactarme.
+
+{$editorialContactSignature}</body>
+		<description>Esta plantilla de correo se utiliza para recopilar los identificadores ORCID de los coautores/as.</description>
+	</email_text>
+</email_texts>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/nl_NL/emailTemplates.xml
+  *
+  * Copyright (c) 2003-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+	
+<email_texts locale="nl_NL">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>ORCID van uw inzending</subject>
+		<body><![CDATA[Beste {$authorName},<br/>
+<br/>
+U bent auteur van een inzending voor {$contextName}.<br/> 
+Wilt u bevestigen dat u co-auteur bent door uw ORCID id toe te voegen via volgende link?<br/>
+<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registreer of koppel uw ORCID ID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Meer informatie over ORCID op {$contextName}</a><br/>
+<br/>
+Neemt u alstublieft contact op als u vragen heeft.<br/>
+<br/>
+{$principalContactSignature}<br/>
+]]></body>
+		<description>Deze e-mail wordt verstuurd om de ORCID ID's van auteurs te verzamelen.</description>
+	</email_text>
+	<email_text key="ORCID_REQUEST_AUTHOR_AUTHORIZATION">
+		<subject>Toegangsverzoek tot uw ORCID profiel</subject>
+		<body><![CDATA[Beste {$authorName},<br/>
+<br/>
+U bent auteur van het manuscript "{$articleTitle}" dat werd ingediend voor {$contextName}.
+<br/>
+<br/>
+Wilt u uw toestemming geven om uw ORCID ID toe te voegen aan deze inzending en de inzending toe te voegen aan uw ORCID profiel bij publicatie?<br/>
+Klik op de link naar de officiële ORCID website, meld u aan met uw gebruikersprofiel en authoriseer de toegang door de instructies te volgen.<br/>
+<a href="{$authorOrcidUrl}"><img id="orcid-id-logo" src="https://orcid.org/sites/default/files/images/orcid_16x16.png" width='16' height='16' alt="ORCID iD icon" style="display: block; margin: 0 .5em 0 0; padding: 0; float: left;"/>Registreer of koppel uw ORCID ID</a><br/>
+<br/>
+<br/>
+<a href="{$orcidAboutUrl}">Meer informatie over ORCID op {$contextName}</a><br/>
+<br>
+Neemt u alstublieft contact op als u vragen heeft.<br/>
+<br/>
+{$principalContactSignature}<br/>
+]]></body>
+		<description>Deze e-mail wordt verstuurd om toegang te vragen aan auteurs tot hun ORCID profiel.</description>
+	</email_text>
+</email_texts>

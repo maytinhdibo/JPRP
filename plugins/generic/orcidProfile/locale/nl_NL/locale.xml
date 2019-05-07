@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/nl_NL/locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings for the nl_NL (Nederlands) locale
+  -->
+
+<locale name="nl_NL" full_name="Nederlands">
+
+	<message key="plugins.generic.orcidProfile.displayName">ORCID profiel plugin</message>
+	<message key="plugins.generic.orcidProfile.description">Maakt het mogelijk om gegevens van ORCID gebruikersprofielen te importeren.</message>
+	<message key="plugins.generic.orcidProfile.instructions">U kan dit formulier vooraf laten invullen met gegevens van een ORCID gebruikersprofiel. Vul het e-mailadres of ORCID ID van het ORCID profiel in, en klik dan op "Indienen".</message>
+	<message key="plugins.generic.orcidProfile.noData">Er konden geen ORCID gegevens worden gevonden.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">E-mailadres of ORCID ID:</message>	
+	<message key="plugins.generic.orcidProfile.manager.settings.title">ORCID API instellingen</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.hidden">verborgen</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Stel de ORCID API in voor het importeren van gegevens van ORCID gebruikersprofielen in het gebruikersprofiel.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description.globallyconfigured">De ORCID API is globaal geconfigureerd. Volgende aanmeldingsgegevens werden bewaard.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Publiek</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Publieke sandbox</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Lid</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Sandbox voor leden</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Client ID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Client sleutel</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidScope">Bereik van de toegang tot uw profiel</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.mailSectionTitle">E-mail instellingen</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.sendMailToAuthorsOnPublication">Verstuur een e-mail aan de auteurs om ORCID-authorisatie aan te vragen bij de publicatie van een nieuw nummer.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logSectionTitle">Logboek van ORCID aanvragen</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.help">Selecteer welke gegevens worden gelogd.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.error">Fouten</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.logLevel.all">Alle</message>
+	<message key="plugins.generic.orcidProfile.author.accessDenied">ORCID toegang was geweigerd</message>
+	<message key="plugins.generic.orcidProfile.author.accessTokenStored">Toegang tot ORCID was toegestaan met bereik {$orcidAccessScope}, geldig tot</message>
+	<message key="plugins.generic.orcidProfile.author.requestAuthorization">Verstuur een e-mail aan de bijdrager om ORCID-authorisatie aan te vragen.</message>
+	<message key="plugins.generic.orcidProfile.author.deleteORCID">Verwijder ORCID ID en toegangscode!</message>
+	<message key="plugins.generic.orcidProfile.author.orcidEmptyNotice">Zie hieronder voor de aanvraag van een geauthenticeerd ORCID ID.</message>
+	<message key="plugins.generic.orcidProfile.author.unauthenticated">ORCID ID is niet geauthenticeerd! Vraag authenticatie aan de bijdrager.</message>
+	<message key="plugins.generic.orcidProfile.verify.title">ORCID authorisatie</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.success">De inzending werd toegevoegd bij uw ORCID profiel.</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.failure">De inzending kon niet worden toegevoegd aan uw ORCID profiel.</message>
+	<message key="plugins.generic.orcidProfile.verify.sendSubmissionToOrcid.notpublished">De inzending zal bij publicatie worden toegevoegd aan uw ORCID profiel.</message>
+	<message key="plugins.generic.orcidProfile.verify.success">Uw ORCID ID is geverifieerd en met succes gelinkt aan de inzending.</message>
+	<message key="plugins.generic.orcidProfile.verify.failure">Uw ORCID ID kon niet worden geverifieerd. De link is niet langer geldig.</message>
+	<message key="plugins.generic.orcidProfile.verify.duplicateOrcid">Er is al een ORCID ID opgeslagen voor deze inzending.</message>	
+	<message key="plugins.generic.orcidProfile.verify.denied">U heeft toegang tot uw ORCID profiel geweigerd.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">OJS kon niet communiceren met de ORCID service. Contacteer de tijdschriftbeheerder met uw naam, ORCID ID en gegevens over uw inzending.</message>
+	<message key="plugins.generic.orcidProfile.failure.contact">Contacteer de tijdschriftbeheerder met uw naam, ORCID ID en gegevens over uw inzending.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">Maak of koppel uw ORCID ID</message>
+	<message key="plugins.generic.orcidProfile.authorise">Authoriseer en verbind uw ORCID ID</message>
+	<message key="plugins.generic.orcidProfile.about.title">Wat is ORCID?</message>
+	<message key="plugins.generic.orcidProfile.about.orcidExplanation"><![CDATA[ORCID is een onafhankelijke niet-commerciële organisatie die een vaste identificatiecode -een ORCID ID- toekent die u onderscheidt van andere onderzoekers en een mechanisme voorziet om uw onderzoekspublicaties en activiteiten met uw ID te verbinden. ORCID is geïntegreerd in vele systemen die worden gebruikt door uitgevers, instellingen en andere onderzoeksgerelateerde diensten. Meer informatie op <a href="https://orcid.org">orcid.org</a>.]]></message>
+	<message key="plugins.generic.orcidProfile.about.howAndWhy.title">Hoe en waarom verzamelen we ORCID ID's?</message>
+	<message key="plugins.generic.orcidProfile.about.howAndWhy"><![CDATA[Dit tijdschrift verzamelt uw ORCID ID om te kunnen [add purpose and distinguish between Member API and Public API]. Als u op de "Authoriseren" knop klikt in het ORCID popupvenster, zullen we u vragen om uw ID te delen via een geauthenticeerd proces: ofwel door te <a href="https://support.orcid.org/hc/en-us/articles/360006897454">registreren voor een ORCID ID</a> of als u er al een heeft, door <a href="https://support.orcid.org/hc/en-us/categories/360000661673">aan te melden voor uw ORCID profiel</a>, en ons dan toestemming te verlenen tot uw ORCID ID. We doen dit om te verzekeren dat u correct geïdentificeerd bent en om uw ORCID ID veilig te koppelen.<br/>
+	Meer informatie op <a href="https://orcid.org/blog/2017/02/20/whats-so-special-about-signing">What’s so special about signing in.</a>]]></message>	
+	<message key="plugins.generic.orcidProfile.about.display.title">Waar worden ORCID ID's getoond?</message>
+	<message key="plugins.generic.orcidProfile.about.display"><![CDATA[Om aan te geven dat u uw ID heeft gebruikt en dat dit geauthenticeerd is, wordt het ORCID ID icoon <img src="https://orcid.org/sites/default/files/images/orcid_16x16(1).gif" alt="iD icon" width="16" height="16" border="0"/> getoond naast uw naam bij de weergave van uw inzending en op uw publieke gebruikersprofiel.<br/>
+		Meer informatie op <a href="https://orcid.org/blog/2013/02/22/how-should-orcid-id-be-displayed">How should an ORCID iD be displayed.</a>]]></message>
+</locale>

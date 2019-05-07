@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/sl_SI/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="sl_SI" full_name="Slovenščina">
+
+	<message key="plugins.generic.orcidProfile.displayName">Vtičnik za ORCID profil</message>
+	<message key="plugins.generic.orcidProfile.description"><![CDATA[Omogoča uvoz uporabniških podatkov iz ORCID.]]></message>
+	<message key="plugins.generic.orcidProfile.instructions"><![CDATA[Obrazec lahko pednapolnite s podatki iz ORCID profila. Vnesite email naslvo ali ORCID iD, ki pripada ORCID profilu, in kliknite "Pošlji".]]></message>
+	<message key="plugins.generic.orcidProfile.noData">Iz ORCID ni bilo mogoče najti nobenih podatkov.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">Email naslov ali ORCID iD:</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Nastavitve ORCID Profila</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Nastavite ORCID API za uporabo pri zajemanju podatkov iz ORCID profilov za uporabniške profile.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Javno</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Javni peskovnik</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Član</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Članski peskovnik</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">ID klienta</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Secret klienta</message>
+	<message key="plugins.generic.orcidProfile.author.submission">ORCID prispevka</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">Vaš prispevek je bil uspešno povezan z vašim ORCID iD-jem.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">Vaš prispevek ni bil uspešno povezan z vašim ORCID iD-jem. Za pomoč kontaktirajte vašeka upravljalca revije skupaj z vašim imenom, ORCID iD-jem in podatki o vašem prispevku.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">OJS ni mogel komunicirati z ORCID servisom. Za pomoč kontaktirajte vašeka upravljalca revije skupaj z vašim imenom, ORCID iD-jem in podatki o vašem prispevku.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">Ustvari ali poveži vaš ORCID iD</message>
+</locale>

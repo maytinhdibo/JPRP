@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/da_DK/emailTemplates.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+<email_texts locale="da_DK">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>Indsendelse ORCID</subject>
+		<body><![CDATA[Kære {$authorName},<br/>
+<br/>
+Du står opført som medforfatter til manuskriptet "{$articleTitle}" i {$contextName}.<br/>
+<br/>
+For at bekræfte forfatterskabet bedes du tilføje din ORCID id til denne indsendelse ved at gå til det fremlagte link nedenfor.<br/>
+<br/>
+{$authorOrcidUrl}<br/>
+<br/>
+Har du spørgsmål bedes du kontakte mig.<br/>
+<br/>
+{$principalContactSignature}<br/>
+]]></body>
+		<description>Denne e-mail bruges til at indsamle ORCID id fra medforfattere.</description>
+	</email_text>
+</email_texts>

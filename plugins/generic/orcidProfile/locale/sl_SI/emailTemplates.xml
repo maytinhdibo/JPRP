@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/sl_SI/emailTemplates.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+
+<email_texts locale="sl_SI">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>ORCID prispevka</subject>
+		<body>Spoštovani {$authorName},
+
+Navedeni ste bili kot soavtor rokopisa prispevka "{$articleTitle}" za revijo {$journalName}. 
+
+Da potrdite avtorstvo, vas prosimo, da dodate vaš ORCID iD v prispevek s klikom na spodnjo povezavo.
+
+{$authorOrcidUrl}
+
+Če imate kakršnakoli vprašanje, me prosim kontaktirajte.
+
+{$editorialContactSignature}
+
+
+</body>
+		<description>Email se uporablja za zbiranje ORCID iD-jev soavtorjev.</description>
+	</email_text>
+</email_texts>

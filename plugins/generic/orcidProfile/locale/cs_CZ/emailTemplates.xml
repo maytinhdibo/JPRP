@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/cs_CZ/emailTemplates.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+
+<email_texts locale="cs_CZ">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>ORCID ID k příspěvku</subject>
+		<body>Vážený(á) {$authorName},
+
+Byl(a) jste uveden(a) jako spoluautor rukopisu příspěvku "{$articleTitle}" do časopisu {$journalName}. 
+
+K potvrzení vašeho autorství vložte, prosím vaše ORCID k příspěvku na následující webové adrese.
+
+{$authorOrcidUrl}
+
+Pokud máte jakékoliv dotazy, neváhejte mne kontaktovat.
+
+{$editorialContactSignature}</body>
+		<description>Tato šablona emailu slouží k shromažďování ORCID ID od spoluautorů.</description>
+	</email_text>
+</email_texts>

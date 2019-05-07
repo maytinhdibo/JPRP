@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/sv_SE/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Swedish_(sv_SE)
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+
+	<message key="plugins.generic.orcidProfile.displayName">Plugin för ORCID-profil</message>
+	<message key="plugins.generic.orcidProfile.description"><![CDATA[Gör det möjligt att importera användarprofilsinformation från ORCID.]]></message>
+	<message key="plugins.generic.orcidProfile.instructions"><![CDATA[Du kan fylla i det här formuläret genom att hämta information från en ORCID-profil. Ange e-postadress eller ORCID iD som är kopplat till ORCID-profilen och klicka sedan på "Skicka".]]></message>
+	<message key="plugins.generic.orcidProfile.noData">Hittade inga data i ORCID.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">E-postadress eller ORCID-iD:</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Inställningar för ORCID-profil</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Konfigurera ORCID-API:t för att hämta profilinformation från ORCID till användarprofilen.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Public</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Public Sandbox</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Member</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Member Sandbox</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Client ID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Client Secret</message>
+	<message key="plugins.generic.orcidProfile.author.submission">ORCID för bidrag</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">Ditt bidrag har kopplats till ditt ORCID-iD.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">Ditt bidrag kunde inte kopplas till ditt ORCID-iD. Kontakta tidskriftansvarig med ditt namn, ORCID-iD och andra detaljer om ditt bidrag.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">OJS kunde inte kommunicera med ORCID-tjänsten. Kontakta tidskriftansvarig med ditt namn, ORCID-iD, och andra detaljer om ditt bidrag.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">Skapa eller koppla ditt ORCID-iD</message>
+</locale>

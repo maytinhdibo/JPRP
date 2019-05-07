@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/tr_TR/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+
+	<message key="plugins.generic.orcidProfile.displayName">ORCID Profil Eklentisi</message>
+	<message key="plugins.generic.orcidProfile.description">ORCID'den kullanıcı profili bilgilerinin içe aktarılmasına izin verir.</message>
+	<message key="plugins.generic.orcidProfile.instructions">ORCID profilinizdeki bilgileri bu forma otomatik aktarabilirsiniz. ORCID profili ile ilişkili e-posta adresini veya ORC ID'yi girin, ardından "Gönder" seçeneğini tıklayın.</message>
+	<message key="plugins.generic.orcidProfile.noData">ORCID'de herhangi bir veri bulunamadı.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">E-posta adresi veya ORCID:</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">ORCID Profil Ayarları</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">ORCID profili bilgilerinin kullanıcı profiline çekilmesi için ORCID API'sini yapılandırın.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Genel</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Genel Havuz</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Üye</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Üye Havuzu</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Müşteri ID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Müşteri Gizliliği</message>
+	<message key="plugins.generic.orcidProfile.author.submission">ORC ID'den Bilgi İsteği</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">İsteğiniz, ORC ID'nizle başarıyla ilişkilendirildi.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">İsteğiniz, ORC ID'nizle başarılı bir şekilde ilişkilendirilemedi. Lütfen dergi sorumlusu ile adınız, ORC ID ve isteğinizin ayrıntıları için iletişime geçin.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">OJS, ORCID hizmeti ile iletişim kuramadı. Lütfen dergi sorumlusu ile adınızı, ORCID  ve isteğinizin ayrıntıları için iletişime geçiniz.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">ORC ID'nizi oluşturun veya bağlayın</message>
+</locale>

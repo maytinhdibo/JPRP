@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/cs_CZ/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="cs_CZ" full_name="Čeština">
+
+	<message key="plugins.generic.orcidProfile.displayName">Plugin pro profil ORCID</message>
+	<message key="plugins.generic.orcidProfile.description">Umožňuje import informací o uživatelských profilech z ORCID.</message>
+	<message key="plugins.generic.orcidProfile.instructions">Tento formulář můžete předvyplnit informacemi z profilu ORCID. Zadejte emailovou adresu nebo ORCID iD přidruženou k profilu ORCID a klikněte na tlačítko Odeslat.</message>
+	<message key="plugins.generic.orcidProfile.noData">Nelze získat z ORCID žádná data.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">Emailová adresa nebo ORCID iD:</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Nastavení profilu ORCID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Nakonfigurujte rozhraní ORCID API pro použití při stahování informací z profilu ORCID do profilu uživatele.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Veřejný</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Veřejné pískoviště</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Člen</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Členské pískoviště</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">ID klienta:</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">"Client Secret" (tajemství klienta)</message>
+	<message key="plugins.generic.orcidProfile.author.submission">ORCID příspěvku</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">Váš příspěvek byl úspěšně přidružen k vaší ORDID iD.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">Váš příspěvek nemohl být úspěšně přidružen k vašemu ORDID iD. Obraťte se na správce časopisu se svým jménem, ORCID ID a podrobnostmi o vašem příspěvku.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">Systém OJS nebyl schopen komunikovat se službou ORCID. Obraťte se na správce časopisu se svým jménem, ORCID iD a podrobnostmi o vašem příspěvku.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">Vytvořte či připojte vaše ORCID iD</message>
+</locale>

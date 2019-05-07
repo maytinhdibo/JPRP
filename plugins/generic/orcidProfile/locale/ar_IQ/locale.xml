@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/ar_IQ/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="ar_IQ" full_name="العربية">
+
+	<message key="plugins.generic.orcidProfile.displayName">إضافة الملف التعريفي ORCID</message>
+	<message key="plugins.generic.orcidProfile.description"><![CDATA[تسمح باستيراد بيانات الملف الشخصي للمستخدم من ORCID.]]></message>
+	<message key="plugins.generic.orcidProfile.instructions"><![CDATA[بإمكانك توطين هذا النموذج ببيانات من ملف تعريفي مسجل في ORCID. أدخل عنوان البريد الالكتروني أو معرف ORCID المتعلق بالملف الشخصي في ORCID ثم أنقر "تقديم".]]></message>
+	<message key="plugins.generic.orcidProfile.noData">تعذر العثور على أي بيانات من ORCID.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">البريد الالكتروني أو معرف ORCID:</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">إعدادات الملف الشخصي في ORCID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">تهيئة API الخاصة بـ ORCID لاستعمالها في سحب البيانات الشخصية من قاعدة بيانات ORCID إلى الملف الشخصي للمستخدم.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID API</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">عام</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">صلاحيات عامة</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">عضو</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">صلاحيات عضو</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">الرمز التعريفي للعميل</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">الرقم السري للعميل</message>
+	<message key="plugins.generic.orcidProfile.author.submission">تقديم ORCID</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">إن طلب تقديمك قد تم ربطه بملفك الشخصي في ORCID بنجاح.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">تعذر ربط طلب تقديمك بملفك الشخصي في ORCID. لطفاً، راسل رئيس تحرير المجلة وأعلمه باسمك، رمزك التعريفي في ORCID، مع تفاصيل طلب تقديمك.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">تعذر على نظام المجلات المفتوحة الاتصال بخدمة ORCID.  لطفاً، راسل رئيس تحرير المجلة وأعلمه باسمك، رمزك التعريفي في ORCID، مع تفاصيل طلب تقديمك.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">إنشئ رمزك التعريفي في ORCID أو أربطه</message>
+</locale>

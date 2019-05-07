@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/pt_PT/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+
+<locale name="pt_PT" full_name="Português (Portugal)">
+
+	<message key="plugins.generic.orcidProfile.displayName">Plugin de Perfil ORCID</message>
+	<message key="plugins.generic.orcidProfile.noData">Não foram encontrados dados no ORCID.</message>
+	<message key="plugins.generic.orcidProfile.author.submission">Submissão ORCID</message>
+	<message key="plugins.generic.orcidProfile.connect">Criar ou Associar o seu ORCID iD</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">Endereço de E-Mail ou ORCID iD:</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">API ORCID</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">A sua submissão foi associada com sucesso com o seu ORCID iD.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Público</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Membro</message>
+	<message key="plugins.generic.orcidProfile.authFailure">O OJS não foi capaz de comunicar com o serviço do ORCID. Por favor contacte o gestor da revista indicando o seu nome, ORCID iD, e detalhes da sua submissão.</message>
+	<message key="plugins.generic.orcidProfile.fieldset">ORCID</message>
+	<message key="plugins.generic.orcidProfile.description">Permite a importação de informação do perfil do utilizador a partir do ORCID.</message>
+	<message key="plugins.generic.orcidProfile.instructions">Pode pré-preencher este formulário com informação sobre um perfil ORCID. Introduza o endereço de e-mail ou o ORCID iD associado com o perfil ORCID, e depois uso o botão "enviar".</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">Configurações de Perfil ORCID</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Configure a API ORCID para transferir informação do perfil ORCID para o perfil de utilizador.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Caixa de Experiências Pública</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Caixa de Experiências para Membros</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">ID do cliente</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Senha do cliente</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">A sua submissão não foi associada com sucesso com o seu ORCID iD. Contacte o gestor do jornal com o seu nome, ORCID iD, e detalhes da sua submissão.</message>
+</locale>

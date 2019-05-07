@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/fi_FI/emailTemplates.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localized email templates XML file.
+  -->
+
+<email_texts locale="fi_FI">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>Käsikirjoituksen ORCID-tunnisteet</subject>
+		<body><![CDATA[Arvoisa {$authorName},<br/>
+<br/>
+Teidät mainitaan käsikirjoituksen "{$articleTitle}" yhdeksi kirjoittajaksi, joka on lähetetty lehteen {$contextName}.<br/>
+<br/>
+Varmistaaksesi tekijyytesi, ole hyvä ja lisää ORCID-tunnisteesi käsikirjoitukseen vierailemalla alla olevassa linkissä.<br/>
+<br/>
+{$authorOrcidUrl}<br/>
+<br/>
+Mikäli teillä on jotain kysymyksiä, olkaa yhteydessä.<br/>
+<br/>
+{$principalContactSignature}<br/>
+]]></body>
+		<description>Tätä sähköpostipohjaa käytetään kirjoittajien ORCID-tunnisteiden keräämiseen.</description>
+	</email_text>
+</email_texts>

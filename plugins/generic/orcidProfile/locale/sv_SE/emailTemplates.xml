@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../../../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * @file plugins/generic/orcidProfile/locale/sv_SE/emailTemplates.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Swedish_(sv_SE)
+  * Localized email templates XML file.
+  -->
+
+<email_texts locale="sv_SE">
+	<email_text key="ORCID_COLLECT_AUTHOR_ID">
+		<subject>ORCID för bidrag</subject>
+		<body>Hej {$authorName}!
+
+Du är listad som medförfattare till bidraget "{$articleTitle}" till {$journalName}. 
+
+För att bekräfta ditt författarskap, lägg till ditt ORCID-iD genom att följa länken nedan.
+
+{$authorOrcidUrl}
+
+Kontakta gärna mig om du har några frågor.
+
+{$editorialContactSignature}
+
+
+</body>
+		<description>Den här e-postmallen används för att samla in ORCID-iD:n från medförfattare.</description>
+	</email_text>
+</email_texts>

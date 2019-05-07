@@ -1,0 +1,284 @@
+/*
+Primary Color: #3A7F3F
+Hover color: #009b5d
+Color text: white;
+*/
+
+@primary_color: #3a7f3f;
+@hover_color: #009b5d;
+@color_button: #fff;
+@color_text: #fff;
+
+li .active {
+  font-weight: bold;
+}
+
+.form-control {
+  color: #999 !important;
+}
+
+.heading-primary {
+  color: @primary_color;
+}
+
+a {
+  color: @color_text !important;
+}
+
+a:hover {
+  color: @hover_color;
+}
+
+.btn-primary {
+  background-color: @primary_color;
+}
+
+.btn-primary:hover {
+  background-color: @hover_color;
+}
+
+#footer.light {
+  padding-top: 20px !important;
+}
+
+/* menu-journal */
+.header-journal {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #eee;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+
+  &:before {
+    top: 0;
+  }
+
+  &:after {
+    bottom: 0;
+  }
+}
+
+.menu-journal {
+  background-color: @primary_color;
+}
+
+.icon-bar {
+  background-color: @color_button;
+}
+
+.navbar-collapse {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.navbar-nav li:hover a {
+  color: @color_button !important;
+}
+
+.navbar-nav li:hover {
+  background-color: @primary_color;
+}
+
+.navbar-nav .active {
+  background-color: @primary_color;
+}
+
+.navbar-nav .active a {
+  color: @color_button !important;
+}
+
+.title-journal {
+  font-size: 25px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: solid @primary_color 1px;
+  margin-top: 20px;
+}
+
+.title-section {
+  font-size: 21px;
+  color: @primary_color;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content-about {
+  text-align: justify;
+}
+
+.image-jounal {
+
+}
+
+.author-journal {
+  margin-left: 20px !important;
+  font-weight: 200;
+  color: #777 !important;
+}
+
+.box-journal {
+  margin-bottom: 30px;
+}
+
+.announcement-content {
+
+}
+
+.box-article-archive {
+  margin-bottom: 20px;
+}
+
+.title-other {
+  font-size: 19px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.title-article-archive {
+  font-size: 19px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+/* Side bar right */
+.sidebar-right {
+}
+
+#simpleSearchInput {
+  td {
+    border: none;
+  }
+}
+
+.form-journal {
+  margin-bottom: 30px;
+}
+
+.title-form-journal {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border-top: solid @primary_color 2px;
+  background-color: #dedede;
+  padding: 12px 10px;
+}
+
+.by-browse {
+  margin-left: 30px;
+  font-size: 16px;
+}
+
+/* Article Single*/
+.title-article-single {
+  margin-bottom: 10px;
+}
+
+.author-article-single, #authorString {
+  font-weight: 300;
+  color: #777 !important;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.pdf-article {
+  color: white;
+  padding: 8px;
+  background: @primary_color;
+}
+
+.pdf-article:hover {
+  color: white;
+}
+
+.content-references {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/*Custom base ojs each theme*/
+.title-journal-base {
+  color: @primary_color;
+}
+
+.button {
+  background-color: @primary_color !important;
+}
+
+input {
+  font-size: 14px !important;
+}
+
+select {
+  font-size: 14px !important;
+}
+
+input.defaultButton {
+  background-color: @primary_color;
+}
+
+input.button {
+  background-color: @primary_color;
+}
+
+.button:hover {
+  background-color: @hover_color;
+}
+
+/*Override ojs base*/
+.blockTitle {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: @primary_color;
+  padding: 12px 10px;
+}
+
+#sidebar {
+  .blockTitle {
+    border-top: solid #3a7f3f 2px;
+    background-color: #dedede;
+  }
+}
+
+.list-group-vnu {
+  padding-left: 0;
+  margin-bottom: 20px;
+
+  li {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: -1px;
+    background-color: #fff;
+  }
+}
+
+.btn-submission:hover {
+  background-color: @primary_color;
+  border-color: @color_button;
+  color: @color_button;
+}
+
+.btn-submission {
+  border-color: @primary_color;
+  background-color: @color_button;
+  color: @primary_color;
+}
+
+#searchForm {
+  table {
+    td {
+      border: none;
+    }
+  }
+}

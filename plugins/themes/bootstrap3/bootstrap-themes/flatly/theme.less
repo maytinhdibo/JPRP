@@ -1,0 +1,127 @@
+@primary-color:#0079b1;
+@second-color: #339965;
+@import url('https://use.fontawesome.com/releases/v5.8.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+@font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          15px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+
+.navbar, .header_view {
+    margin-bottom: 0px;
+}
+
+.navbar-brand-logo {
+    width: 100%;
+    float: none !important;
+    padding: 0;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.navbar-default .navbar-toggle .icon-bar, .header_view .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .header_view .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-collapse.collapse{
+        padding: 0;
+    }
+  }
+
+header.navbar {
+    border: none;
+    border-radius: 0;
+    background-color:@primary-color;
+}
+
+.navbar-default .nav>li>a {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px !important;
+    transition: 0.25s background-color;
+
+    &:hover {
+        background-color: @second-color;
+        color: #fff;
+    }
+}
+
+.breadcrumb {
+    border-radius: 0 0 4px 4px;
+}
+
+.dropdown-menu>li>a {
+    padding: 12px 20px;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: #339965;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: @second-color;
+}
+//content
+.pkp_structure_content.container{
+    width:100% !important;
+}
+//homepage-image
+.thumb-journal {
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 -7px 11px 0 rgba(0, 0, 0, 0.19);
+}
+//box-card
+.box-content {
+    border-radius: 8px;
+    border: 1px solid #CCC;
+    padding: 30px 30px 10px 30px;
+    position: relative;
+    top: -1px;
+}
+//issue
+.authors{
+    color:#777;
+    font-weight: 300;
+    font-style: italic;
+}
+.media{
+    margin-bottom:1em;
+    margin-top:1em;
+}
+//button
+.btn-outline{
+    border: solid 1px @primary-color;
+    color:@primary-color;
+}
+.btn-outline:hover{
+    background: @primary-color;
+    color:#fff;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/nl_NL/locale.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="nl_NL" full_name="Nederlands">
+	<message key="plugins.block.makeSubmission.displayName">"Maak een inzending" blok</message>
+	<message key="plugins.block.makeSubmission.description">Deze plugin maakt een blok beschikbaar in de sidebar met een link "Maak een inzending".</message>
+	<message key="plugins.block.makeSubmission.linkLabel">Maak een inzending</message>
+</locale>

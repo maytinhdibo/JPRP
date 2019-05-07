@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/generic/orcidPlugin/locale/fi_FI/locale.xml
+  *
+  * Copyright (c) 2015-2018 University of Pittsburgh
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * ORCID Profile plugin localization strings
+  -->
+ 
+<locale name="fi_FI" full_name="Suomi">
+
+	<message key="plugins.generic.orcidProfile.displayName">ORCID-lisäosa</message>
+	<message key="plugins.generic.orcidProfile.description"><![CDATA[Helpottaa ORCID-tunnisteiden käyttöä OJS-järjestelmässä.]]></message>
+	<message key="plugins.generic.orcidProfile.instructions"><![CDATA[Voit esitäyttää lomakkeen ORCID-tilisi tiedoilla.]]></message>
+	<message key="plugins.generic.orcidProfile.noData">Tietoja ei löytynyt.</message>
+	<message key="plugins.generic.orcidProfile.emailOrOrcid">Sähköpostiosoite tai ORCID-tunniste:</message>
+	<message key="plugins.generic.orcidProfile.submitAction">Lähetä</message>
+	<message key="plugins.generic.orcidProfile.manager.orcidProfileSettings">ORCID-profiilin asetukset</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.description">Määritä ORCID-rajapinta, jotta voit hakea tietoja ORCID-tileistä OJS-järjestelmän käyttäjäprofiiliin.</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath">ORCID-rajapinta (ORCID API)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.public">Julkinen (Public)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.publicSandbox">Julkinen testirajapinta (Public Sandbox)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.member">Asiakas (Member)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidProfileAPIPath.memberSandbox">Asiakkaiden testirajapinta (Member Sandbox)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientId">Asiakas ID (Client ID)</message>
+	<message key="plugins.generic.orcidProfile.manager.settings.orcidClientSecret">Asiakas avain (Client Secret)</message>
+	<message key="plugins.generic.orcidProfile.author.submission">Käsikirjoituksen ORCID-tunniste</message>
+	<message key="plugins.generic.orcidProfile.author.submission.success">Käsikirjoitus on liitetty onnistuneesti ORCID-tunnisteen kanssa.</message>
+	<message key="plugins.generic.orcidProfile.author.submission.failure">Käsikirjoitusta ei onnistuttu liittämään ORCID-tunnisteen kanssa. Ota yhteyttä lehden toimituskuntaan ja ilmoita nimesi, ORCID-tunnisteesi sekä käsikirjoituksesi otsikko.</message>
+	<message key="plugins.generic.orcidProfile.authFailure">OJS-järjestelmä ei saanut yhteyttä ORCID-palveluun. Ota yhteyttä lehden toimituskuntaan ja ilmoita nimesi, ORCID-tunnisteesi sekä käsikirjoituksesi otsikko.</message>
+</locale>
