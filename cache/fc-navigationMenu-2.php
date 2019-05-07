@@ -1,0 +1,1 @@
+<?php return '{"menuTree":[],"_data":{"id":"2","title":"User Navigation Menu","areaName":"user","contextId":"1"},"_hasLoadableAdapters":false,"_metadataExtractionAdapters":[],"_extractionAdaptersLoaded":false,"_metadataInjectionAdapters":[],"_injectionAdaptersLoaded":false}'; ?>
